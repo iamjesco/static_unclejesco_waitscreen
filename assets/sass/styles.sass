@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap')
+
+@import reset
+
+
+body
+  background: url("../images/main-bg.png") center/cover no-repeat
+  display: flex
+  justify-content: center
+  align-items: center
+  
+.title
+  color: #ffffff
+  position: absolute
+  top: 50px
+  text-align: center
+  h1
+    font-size: 7rem
+    font-family: 'Paytone one', sans-serif
+    margin-bottom: 2rem
+  p
+    font-size: 1.75rem
+  
+.container
+  width: 400px
+  height: 400px
+  animation: zoom 3s infinite
+  svg
+    filter: drop-shadow(0px 0px 10px rgb(0 0 0 / 0.9))
+  
+    
+@keyframes zoom
+  0%
+    transform: scale(1)
+  50%
+    transform: scale(1.1)
+  100%
+    transform: scale(1)
+  
+  
+.socials
+  color: #ffffff
+  display: flex
+  flex-direction: column
+  gap: 2rem
+  position: fixed
+  top: 2rem
+  right: 2rem
+  z-index: 15
+  font-size: 2rem
+  li
+    display: flex
+    align-items: center
+    gap: 1rem
+  i
+    font-size: 2rem
+    
+.fa-youtube
+  color: #f00
+  
+.fa-instagram
+  color: #ff6ae3
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
